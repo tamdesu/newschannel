@@ -47,7 +47,7 @@ export default function Navbar() {
             <div className={`w-full flex justify-center items-center px-4 py-2 ${isScrolled ? "bg-white" : "bg-transparent"} duration-200`}>
                 <a className='px-4 py-2 rounded-full bg-red-500 text-white'>সর্বশেষ</a>
                 <div className='w-1/2 overflow-hidden mx-4'>
-                    <p className='animate-marquee text-white text-nowrap'> যশোরের বেনাপোল স্থলবন্দর দিয়ে গেল সোমবার ভারত থেকে ২ লাখ ৩১ হাজার মুরগির ডিম আমদানি করা হয়েছে। আগামী দুই মাসের মধ্যে বন্দর দিয়ে আরও ৪৭ লাখ ডিম আমদানি করা হবে বলে জানা গেছে। তবে এ নিয়ে বাংলাদেশকে অনেকটা কটাক্ষ করেই সংবাদ প্রকাশ করেছে ভারতীয় কয়েকটি</p>
+                    <p className={`animate-marquee text-white text-nowrap ${isScrolled ? "text-black" : "text-white"}> যশোরের বেনাপোল স্থলবন্দর দিয়ে গেল সোমবার ভারত থেকে ২ লাখ ৩১ হাজার মুরগির ডিম আমদানি করা হয়েছে। আগামী দুই মাসের মধ্যে বন্দর দিয়ে আরও ৪৭ লাখ ডিম আমদানি করা হবে বলে জানা গেছে। তবে এ নিয়ে বাংলাদেশকে অনেকটা কটাক্ষ করেই সংবাদ প্রকাশ করেছে ভারতীয় কয়েকটি</p>
                 </div>
                 <a className='px-4 py-2 rounded-full bg-red-500 text-white'>লাইভ টিভি</a>
             </div>
